@@ -29,7 +29,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <style>
-        .fjalla-one-regular {
+        * {
             font-family: "Fjalla One", sans-serif;
             font-weight: 400;
             font-style: normal;
@@ -44,17 +44,47 @@
             justify-content: center;
             align-items: center;
             background-color: black;
-            font-family: "Fjalla One", sans-serif;
         }
-        h1, h2, a {
+        hr, h1, h2, h3, p, a {
             color: white;
-            margin: 15px 0;
+            margin: 10px 0;
+        }
+        hr {
+            height: 2px;
+            width: 25em;
+            margin: 30px 0;
+            border: 0;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, .5), rgba(0, 0, 0, 0));
+        }
+        h1 {
+            font-weight: 500;
+        }
+        li {
+            color: white;
+            margin: 8px 0;
+        }
+        li:first-child {
+            margin-top: 0;
+        }
+        #github-logo {
+            width: 50px;
         }
     </style>
 </head>
 <body>
     <h1>Article the First</h1>
     <h2>Coming soon to a district near you.</h2>
-    <a href= "mailto:contact@articlethefirst.org" target="_blank">contact@articlethefirst.org</a>
+    <hr>
+    <p>Learn more and join the movement while we are under construction.</p>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Congressional_Apportionment_Amendment/" target="_blank">What is the Congressional Apportionment Amendment?</a></li>
+        <li><a href="https://constitutioncenter.org/blog/how-a-c-grade-college-term-paper-led-to-a-constitutional-amendment/" target="_blank">1992's Ratification of Article the Second</a></li>
+        <li><a href="https://www.linkedin.com/pulse/new-constitutional-convention-brendan-connelly-zbgre/" target="_blank">America's Golden Ratio</a></li>
+        <li><a href="https://thirty-thousand.org/" target="_blank">thirty-thousand.org</a></li>
+        <li><a href="https://www.articlethefirst.net/" target="_blank">articlethefirst.net</a></li>
+        <li><a href="https://www.reddit.com/r/UncapTheHouse/" target="_blank">reddit.com/r/UncapTheHouse</a></li>
+    </ul>
+    <a href="https://github.com/emerconnelly/articlethefirst" target="_blank"><img id="github-logo" src="assets/github-logo-50x50.png"></a>
+    <a href="mailto:contact@articlethefirst.org" target="_blank">contact@articlethefirst.org</a>
 </body>
 </html>
