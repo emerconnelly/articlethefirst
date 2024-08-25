@@ -50,30 +50,35 @@
             align-items: center;
             background-color: black;
         }
-        footer {
+        header, footer {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
-        hr, h1, h2, p, a {
-            color: white;
-            margin: 10px 0;
-            text-align: center;
+        section {
+            margin: 20px 0;
         }
-        h1, h2 {
-            margin-inline: 25px;
+        img {
+            width: 50px;
         }
         hr {
             height: 2px;
             width: 30em;
             max-width: 90vw;
-            margin: 30px 0;
             border: 0;
             background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(204, 204, 204, 0.3), rgba(0, 0, 0, 0));
         }
+        hr, h1, h2, h3, p, a {
+            color: white;
+            margin: 10px 0;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            margin-inline: 25px;
+        }
         h1 {
-            font-weight: 500;
+            font-weight: 550;
         }
         p, li {
             margin: 10px 25px;
@@ -82,25 +87,31 @@
         li:first-child {
             margin-top: 0;
         }
-        #github-logo {
-            width: 50px;
-        }
     </style>
 </head>
 <body>
-    <h1>Article the First</h1>
-    <h2>Coming soon to a district near you.</h2>
-    <p>Only 27 states left.</p>
+    <header>
+        <h1>Article the First</h1>
+        <h2>The Congressional Apportionment Amendment</h2>
+    </header>
     <hr>
-    <p>Learn more and join the movement while we are under construction.</p>
-    <ul>
-        <li><a href="https://en.wikipedia.org/wiki/Congressional_Apportionment_Amendment" target="_blank">What is the Congressional Apportionment Amendment?</a></li>
-        <li><a href="https://constitutioncenter.org/blog/how-a-c-grade-college-term-paper-led-to-a-constitutional-amendment/" target="_blank">1992's Ratification of Article the Second</a></li>
-        <li><a href="https://www.linkedin.com/pulse/new-constitutional-convention-brendan-connelly-zbgre/" target="_blank">America's Golden Ratio</a></li>
-        <li><a href="https://thirty-thousand.org/" target="_blank">thirty-thousand.org</a></li>
-        <li><a href="https://www.articlethefirst.net/" target="_blank">articlethefirst.net</a></li>
-        <li><a href="https://www.reddit.com/r/UncapTheHouse/" target="_blank">reddit.com/r/UncapTheHouse</a></li>
-    </ul>
+    <main>
+        <section>
+            <h3>Join the Movement for Fair Representation</h3>
+            <p>Only 27 states left to ratify.</p>
+        </section>
+        <section>
+            <h3>Learn more about Article the First</h3>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Congressional_Apportionment_Amendment" target="_blank">What is the Congressional Apportionment Amendment?</a></li>
+                <li><a href="https://constitutioncenter.org/blog/how-a-c-grade-college-term-paper-led-to-a-constitutional-amendment/" target="_blank">1992's Ratification of Article the Second</a></li>
+                <li><a href="https://www.linkedin.com/pulse/new-constitutional-convention-brendan-connelly-zbgre/" target="_blank">America's Golden Ratio</a></li>
+                <li><a href="https://thirty-thousand.org/" target="_blank">thirty-thousand.org</a></li>
+                <li><a href="https://www.articlethefirst.net/" target="_blank">articlethefirst.net</a></li>
+                <li><a href="https://www.reddit.com/r/UncapTheHouse/" target="_blank">reddit.com/r/UncapTheHouse</a></li>
+            </ul>
+        </section>
+    </main>
     <footer>
         <a href="https://github.com/emerconnelly/articlethefirst" target="_blank"><img id="github-logo" src="assets/github-logo-240x240.png" alt="GitHub Repository"></a>
         <a href="mailto:contact@articlethefirst.org">contact@articlethefirst.org</a>
