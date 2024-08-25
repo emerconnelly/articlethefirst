@@ -45,13 +45,18 @@
             align-items: center;
             background-color: black;
         }
-        hr, h1, h2, h3, p, a {
+        hr, h1, h2, p, a {
             color: white;
             margin: 10px 0;
+            text-align: center;
+        }
+        h1, h2 {
+            margin-inline: 25px;
         }
         hr {
             height: 2px;
-            width: 25em;
+            width: 30em;
+            max-width: 90vw;
             margin: 30px 0;
             border: 0;
             background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(204, 204, 204, 0.3), rgba(0, 0, 0, 0));
@@ -59,9 +64,9 @@
         h1 {
             font-weight: 500;
         }
-        li {
+        p, li {
+            margin: 10px 25px;
             color: white;
-            margin: 8px 0;
         }
         li:first-child {
             margin-top: 0;
