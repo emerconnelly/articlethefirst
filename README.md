@@ -1,3 +1,3 @@
 # [articlethefirst.org](https://articlethefirst.org/)
 
-Learn about Article the First, the Congressional Apportionment Amendment, and join the movement to pass this important legislation for fair representation in the US House of Representatives.
+Join the movement to pass Article the First, the Congressional Apportionment Amendment, for fair representation in the US House of Representatives. Only 27 states left to ratify.
