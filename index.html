@@ -62,7 +62,7 @@
             align-items: center;
             background-color: black;
         }
-        header, footer {
+        div, header, footer {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -72,7 +72,8 @@
             margin: 20px 0;
         }
         img {
-            width: 50px;
+            height: 40px;
+            margin-inline: 10px;
         }
         hr {
             height: 2px;
@@ -98,6 +99,9 @@
         }
         li:first-child {
             margin-top: 0;
+        }
+        #footer-links {
+            flex-direction: row;
         }
     </style>
 </head>
@@ -125,7 +129,10 @@
         </section>
     </main>
     <footer>
-        <a href="https://github.com/emerconnelly/articlethefirst" target="_blank"><img id="github-logo" src="assets/github-logo-240x240.png" alt="GitHub Repository"></a>
+        <div id="footer-links">
+            <a href="https://github.com/emerconnelly/articlethefirst" target="_blank"><img src="assets/github-logo-240x240.png" alt="GitHub Logo"></a>
+            <a href="https://twitter.com/articlefirstorg" target="_blank"><img src="assets/twitter-logo-235x240.png" alt="Twitter Logo"></a>
+        </div>
         <a href="mailto:contact@articlethefirst.org">contact@articlethefirst.org</a>
     </footer>
 </body>
